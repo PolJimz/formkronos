@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cotización</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/kronosimpresores.css">
+    <script src="js/kronosimpresores.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Así imprimimos</title>
+    <link rel="stylesheet" href="css/flipbook.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="js/flipbook.js"></script>
+</head>
+<body>
+    <div class="container-fluid first-container-imprimimos">
+        <div class="home-button">
+            <div class="home-button-img">
+                <a href="index.html"><img src="img/index_Img/botonHome.png"></a>
+            </div>
+        </div>
+        <div class="menu-button">
+            <div class="menu-button-img">
+                <img id="btnMenu" onclick="showMenu()" src="img/index_Img/botonMenu.png">
+            </div>
+        </div>
+        <div class="text-section-imprimimos">
+            <div class="imprimimos-main-text">
+                <div class="imprimimos-tittle" style="text-align: center;">
+                    <hr>
+                    <br>
+                    <h1>
+                        SOLICITA UNA COTIZACIÓN
+                    </h1>
+                    <br>
+                    <br>
+                </div>
+                <br>
+            </div>
+            <div class="row markdig-row" id="rowsticky">
+                <div class="col-sm-8 markdig-col">
+                    <div class="markdig-box">
+                        <h4 class="markdig-maintext">
+                            Cada proyecto es diferente y nosotros amamos los retos. A continuación, encontrarás los parámetros básicos para solicitar una cotización. En cuanto completes esta información, un miembro de nuestra compañía se comunicará contigo para asesorarte personalmente.
+
+                            <br><br>
+                            En Kronos prestamos mucha atención a los detalles, entre más descriptivo se tu mensaje, será más fácil entendernos. Puedes llenar el formulario a continuación o si prefieres, envíanos un correo electrónico directamente a comercial@kronosimpresores.com
+                            <br><br>
+                            Te sugerimos incluir en tu mensaje:
+                            <ul>
+                                <li>Cantidad</li>
+                                <li>material</li>
+                                <li>Dimensiones</li>
+                                <li>Colores</li>
+                                <li>Características</li>
+                                <li>Terminados</li>
+                                <li>Archivo digital</li>
+                            </ul>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 markdig-float-col" id="floatMenuCol">
+                    <div class="expmar-float-cont" id="expmarFloatCont" style=" height: 52%;">
+                        <div class="markdig-float-box">
+                            <div class="expmar-float-yellow-box">
+                                <div style="width: 100%;">
+                                    <h3 class="expmar-yellow-tittle">
+                                        PRECIOS <br>
+                                        COMPETITIVOS
+                                    </h3>
+                                <br>
+                                    <h6 class="expmar-yellow-descri">
+                                        Podemos dar <br> excelentes precios ya <br>
+                                        que somos fabricantes
+                                    </h6>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="expmar-float-yellow-box">
+                                <div style="width: 100%;">
+                                    <h3 class="expmar-yellow-tittle">
+                                        CUMPLIMINETO <br>
+                                        ASEGURADO
+                                    </h3>
+                                <br>
+                                    <h6 class="expmar-yellow-descri">
+                                        Recibirás tu pedido en <br> la fecha y lugar <br> estipulados sin retrasos  
+                                    </h6>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="markdig-pagweb-section" id="pagweb">
+            <div class="markdig-cotizar-cont" id="floatForm">
+                <div class="markdig-cotizar-box">
+                    <div class="markdig-cotizar-tittle">
+                        <h3>COTIZAR AHORA:</h3>
+                        <hr>
+                        <form action="https://formsubmit.co/pol.jjimz@gmail.com" method="POST" class="cotizar-form" id="markdigForm">
+                            <div class="mrkdig-input-div">
+                                <input type="text" placeholder="NOMBRE Y APELLIDO" id="markdigInputtext" required>
+                            </div>
+                            <div class="mrkdig-input-div">
+                                <input type="email" placeholder="CORREO" id="markdigInputemail" required>
+                            </div>
+                            <div class="mrkdig-input-div">
+                                <input type="number" placeholder="CELULAR O TELÉFONO" id="markdigInputphone" required>
+                            </div>
+                            <div class="mrkdig-input-div">
+                                <input type="text" placeholder="CIUDAD" id="markdigInputcity"required>
+                            </div>
+                            <div class="mrkdig-input-div">
+                                <textarea rows="8" cols="10"placeholder="TU MENSAJE" id="markdigTextareatext" required></textarea>
+                            </div>
+
+                            
+                                <label for="form_input" class="form_label">
+                                    <input type="file" id="form_input" class="form_input">
+                                    <img src="img/Cotizacion/attachment.png" alt="" class="form_icon">
+                                    <span class="form_text">Adjuntar archivo</span>
+                                </label>
+                            
+
+                            <button class="markdig-btnsubmit" type="submit"> ENVIAR</button>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+
+            </div>    
+        </section>
+
+    </div>
+    <!--load footer for all pages-->
+    
+    <div id="loadfooter" style="width: 100%;">
+    </div>
+    <!--load modal menu for all pages-->
+    <div id="loadModal">
+    </div>
+<style>
+    
+    
+</style>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+    // Get the navbar
+    let navbar = document.getElementById("floatForm");
+    // Get the offset position of the navbar
+    let sticky = navbar.offsetTop;
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("cotizarSticky");
+    } 
+    else{
+        navbar.classList.remove("cotizarSticky");
+    }
+    }
+   
+    /*
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        
+        navbar.classList.add("flotante");
+    } else {
+        navbar.classList.remove("flotante");
+    }
+    }*/
+
+///////////////// modal menu
+function showsubmenu(evt, nombre) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("print-product-right-col");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("printlistclick");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace("actives","");
+    //alert(tablinks.length);
+  }
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(nombre).style.display = "block";
+  evt.currentTarget.className += " activoss";
+}
+document.getElementById("firstActive").click();
+    function activebtn(){
+        document.getElementById("Publicitarios").style.display = "block";
+    }
+////modal menu
+   
+    
+    
+    function showCotiza(){
+        let markdigForm=document.getElementById("markdigForm");
+        let navbarfloat = document.getElementById("floatmenu");
+        if(markdigForm.classList.contains('showmarkdigform')){
+        markdigForm.classList.remove('showmarkdigform');
+        navbarfloat.style.top="30px";
+        
+        }else{
+        markdigForm.classList.add('showmarkdigform');
+        navbarfloat.style.top="-330px";
+    };
+  }
+    
+    </script>
+</body>
+</html>
